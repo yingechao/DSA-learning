@@ -1,5 +1,5 @@
 #DSA-learning
-This repository documents my journey learning DSA using C++ and Python.
+This repository documents my journey learning DSA using C++ 
 
 I’m focusing on understanding concepts deeply, writing clean implementations, and improving problem-solving skills through practice.
 
@@ -15,7 +15,7 @@ Topics to cover:
 
 #languages
 - C++
-- Python
+
 
 #note
 This is a learning-focused repository 
