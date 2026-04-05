@@ -1,4 +1,5 @@
 #include <vector>
+#include <iostream>
 using namespace std;
 
 class Solution {
@@ -12,3 +13,19 @@ public:
         return ans;
     }
 };
+
+int main() {
+    Solution sol; // create a Solution object to access the shuffle method
+
+    vector<int> nums = {2,5,1,3,4,7}; // initialise vector nums and half of array size n
+    int n = 3;
+
+    vector<int> result = sol.shuffle(nums, n); // use shuffle method from sol to shuffle the nums array
+
+    // print result
+    for (int x : result) {
+        cout << x << " ";
+    }
+
+    return 0;
+}
